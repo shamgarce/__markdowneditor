@@ -1,0 +1,45 @@
+{
+    "name": "meta/silk",
+    "description": "another e-commerce website",
+    "keywords": [
+        "silk",
+        "online shop",
+        "good"
+    ],
+    "time": "2014-12-30",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sham",
+            "email": "shampeak@sina.com",
+            "homepage": "http://www.Gracephp.com",
+            "role": "Engineer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.9",
+        "ext-mbstring" : "*",
+        "ext-fileinfo": "*",
+        "league/url": "^3.3",
+        "shampeak/request":"dev-master",
+
+
+        "michelf/php-markdown": "^1.5"
+
+
+    },
+    "require-dev": {
+
+
+
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\":"App/"
+        }
+    },
+    "repositories": [
+        {"type": "composer", "url": "http://packagist.phpcomposer.com"},
+        {"packagist": false}
+    ]
+}
